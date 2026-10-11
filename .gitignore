@@ -1,0 +1,13 @@
+# Entorno virtual: cada persona lo genera con `uv sync --frozen`
+.venv/
+__pycache__/
+*.py[cod]
+
+# Respaldos locales
+*.backup
+*.backup-*
+.env.backup*
+
+# Archivos locales que no forman parte del proyecto
+.vscode.zip
+.foundry/
