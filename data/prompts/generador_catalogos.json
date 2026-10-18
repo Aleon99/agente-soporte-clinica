@@ -1,0 +1,143 @@
+{
+  "descripcion_tipo": {
+    "impresion": "problemas con impresoras, impresión o escaneo",
+    "encendido": "equipos que no encienden, se apagan o no arrancan",
+    "bloqueo_usuario": "usuarios bloqueados, contraseñas o acceso a la cuenta",
+    "aplicativos": "fallas de programas o sistemas informáticos de la clínica",
+    "paneles_totems": "paneles de llamado de turnos, televisores de sala de espera o tótems de autoatención",
+    "otros": "otros problemas de TI: red, telefonía, periféricos o solicitudes"
+  },
+  "subtemas": {
+    "impresion": [
+      "la impresora no imprime nada",
+      "atasco de papel",
+      "la impresora de recetas no responde",
+      "la impresora de etiquetas de laboratorio imprime corrido",
+      "falta tóner o imprime en blanco",
+      "la cola de impresión está trabada",
+      "la impresora no aparece en la red",
+      "imprime manchado o con rayas",
+      "la impresora térmica de boletas no imprime",
+      "el escáner de la multifuncional no envía al correo",
+      "sale error de controlador de impresora",
+      "la impresora de pulseras de pacientes no imprime",
+      "imprime en otra impresora por defecto"
+    ],
+    "encendido": [
+      "la computadora no prende",
+      "el monitor no da señal",
+      "la pc se apaga sola",
+      "pantalla azul al arrancar",
+      "se queda cargando y no entra a Windows",
+      "la laptop no carga la batería",
+      "el estabilizador o UPS pita y no enciende",
+      "la pc prende pero no muestra imagen",
+      "se reinicia a cada rato",
+      "el botón de encendido no responde",
+      "huele a quemado y se apagó",
+      "la all-in-one no enciende después del corte de luz"
+    ],
+    "bloqueo_usuario": [
+      "la cuenta se bloqueó por intentos fallidos",
+      "la contraseña venció",
+      "olvidó su contraseña",
+      "el usuario aparece deshabilitado",
+      "no puede iniciar sesión en Windows",
+      "usuario bloqueado en el sistema de historias clínicas",
+      "pide cambio de contraseña y no la acepta",
+      "personal nuevo sin usuario creado",
+      "dice usuario o contraseña incorrectos",
+      "no puede entrar al correo por bloqueo",
+      "la sesión dice que la cuenta está bloqueada por el administrador"
+    ],
+    "aplicativos": [
+      "el sistema de historias clínicas está lento o se cuelga",
+      "error al guardar la receta",
+      "el sistema de citas no carga",
+      "la facturación electrónica da error al enviar a SUNAT",
+      "Outlook no sincroniza los correos",
+      "Teams no tiene audio en la reunión",
+      "Excel no abre un archivo",
+      "el sistema de laboratorio no muestra resultados",
+      "el visor de imágenes no abre las placas",
+      "una actualización del sistema falló",
+      "el módulo de caja se cierra solo",
+      "el navegador no abre la intranet",
+      "el sistema de farmacia no descuenta stock",
+      "error de conexión a la base de datos del sistema"
+    ],
+    "paneles_totems": [
+      "el panel de llamados no muestra los turnos",
+      "el televisor de la sala de espera se congeló",
+      "el tótem de autoatención no responde al tacto",
+      "el tótem no imprime el ticket de turno",
+      "el tótem aparece fuera de línea",
+      "la pantalla de llamados no tiene sonido",
+      "el panel llama a un paciente equivocado o repite el llamado",
+      "el tótem se quedó en pantalla negra",
+      "el panel de turnos muestra la cola desactualizada",
+      "los pacientes no pueden sacar turno en el tótem",
+      "la pantalla de llamados de consultorio no cambia"
+    ],
+    "otros": [
+      "no hay internet o la red está lenta",
+      "el teléfono IP o anexo no tiene tono",
+      "el mouse o el teclado no funcionan",
+      "solicitud de instalación de un programa",
+      "la cámara web no se detecta",
+      "el proyector de la sala de reuniones no conecta",
+      "el punto de red está suelto",
+      "mover un equipo a otro ambiente",
+      "el wifi no conecta en el celular institucional",
+      "solicitud de un cable o accesorio",
+      "el lector de código de barras no lee",
+      "el lector de huella no reconoce"
+    ]
+  },
+  "contexto_area": {
+    "consultorio": "médicos o asistentes en un consultorio médico, a veces con un paciente en consulta",
+    "triaje": "enfermeras en triaje, mientras toman signos vitales y hay pacientes esperando",
+    "counter": "personal de admisión, caja o counter de citas, con cola de pacientes",
+    "administrativo": "personal administrativo (contabilidad, RR. HH., logística, compras o gerencia)"
+  },
+  "estilos": {
+    "formal": {
+      "descripcion": "redacción formal y completa, como un correo al área de soporte",
+      "min_palabras": 12,
+      "max_palabras": 35
+    },
+    "apurado": {
+      "descripcion": "persona apurada: frases cortas, a veces en mayúsculas o pidiendo urgencia",
+      "min_palabras": 4,
+      "max_palabras": 12
+    },
+    "abreviaturas": {
+      "descripcion": "con algunas abreviaturas de chat usadas con naturalidad, no en cada palabra (q = que, x = por, xfa = por favor, tb = también, dr = doctor, sist = sistema, impr = impresora)",
+      "min_palabras": 5,
+      "max_palabras": 15
+    },
+    "errores": {
+      "descripcion": "escrito rápido desde el celular: sin tildes y con algunos errores de digitación",
+      "min_palabras": 5,
+      "max_palabras": 15
+    },
+    "corto_ambiguo": {
+      "descripcion": "muy corto y vago, a veces sin decir exactamente qué equipo falla",
+      "min_palabras": 2,
+      "max_palabras": 6
+    },
+    "narrativo": {
+      "descripcion": "narra el contexto: desde cuándo pasa, qué se intentó y a cuántos afecta",
+      "min_palabras": 15,
+      "max_palabras": 40
+    }
+  },
+  "p_estilo": {
+    "formal": 0.15,
+    "apurado": 0.22,
+    "abreviaturas": 0.18,
+    "errores": 0.15,
+    "corto_ambiguo": 0.12,
+    "narrativo": 0.18
+  }
+}

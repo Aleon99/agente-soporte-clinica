@@ -1,0 +1,11 @@
+﻿id_ticket,fecha,descripcion,area,sede,tipo_problema,estilo,errores_inyectados,ambiguo,etiqueta_ruidosa
+3137,2026-09-19T18:23:59,El panel de turnos llama a un paciente equivocado. La cola en pantalla no se actualiza.,consultorio,san_miguel,paneles_totems,formal,0,0,0
+1567,2026-06-24T11:03:15,"Buen día, mi cuenta de correo está bloqueada y no puedo recibir los pagos electrónicos. ¿Pueden desbloquearla? Gracias.",administrativo,miraflores,bloqueo_usuario,formal,0,0,0
+2873,2026-09-06T14:35:17,Los pacientes en la cola de citas están diciendo que su cuenta está bloqueada por intentos fallidos. Nos piden que les den el código para desbloquearla.,counter,miraflores,bloqueo_usuario,narrativo,0,0,0
+2072,2026-07-23T12:51:00,El escáner no envía al correo. Q le hago?,consultorio,miraflores,impresion,abreviaturas,0,0,0
+1900,2026-07-14T17:40:19,El PC 4 dice que mi cuenta está bloqueada.,consultorio,san_isidro,bloqueo_usuario,corto_ambiguo,0,0,0
+2997,2026-09-12T17:41:05,Tótme en anrxo 5 no imprime recibo. Urgente.,triaje,miraflores,paneles_totems,apurado,1,0,0
+518,2026-04-29T14:51:37,No are el navegqdor en PC 456.,counter,san_miguel,otros,corto_ambiguo,1,0,0
+1138,2026-06-01T08:54:40,xfa no anda dessde hoy,consultorio,san_isidro,aplicativos,generico_ambiguo,1,1,0
+23,2026-04-02T09:59:40,urgente se colgo todo en mi modulo,triaje,san_miguel,bloqueo_usuario,generico_ambiguo,0,1,0
+1212,2026-06-03T20:15:00,El teléfono del anexo 5D está sin sonido desde ayer. Revisé la línea pero no hay cambios. Afecta a compras.,administrativo,miraflores,aplicativos,narrativo,0,0,1

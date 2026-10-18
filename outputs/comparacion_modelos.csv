@@ -1,0 +1,4 @@
+﻿modelo,f1_macro_media,f1_macro_desv,accuracy_media,accuracy_desv,recall_paneles_totems_media,recall_paneles_totems_desv,tiempo_entrenamiento_s
+regresion_logistica,0.8711,0.0085,0.8727,0.0061,0.9272,0.0514,1.146
+svm_lineal,0.8738,0.0097,0.875,0.0081,0.9177,0.0368,0.449
+naive_bayes_multinomial,0.7994,0.0279,0.8287,0.0183,0.5834,0.1112,0.298

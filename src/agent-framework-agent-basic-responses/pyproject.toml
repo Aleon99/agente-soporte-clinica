@@ -10,4 +10,8 @@ dependencies = [
     "python-dotenv",
     "openai",
     "mcp",
+    "scikit-learn>=1.9.1",
+    "pandas>=3.0.6",
+    "matplotlib>=3.11.2",
+    "joblib>=1.6.0",
 ]

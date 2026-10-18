@@ -1,0 +1,31 @@
+[38;2;37;99;235m■[0m [1mLoading model[0m [38;2;107;114;128m(qwen2.5-7b-instruct-cuda-gpu:4, 4.7 GB)[0m
+[38;2;22;163;74m●[0m [1msuccess:[0m Loaded 'qwen2.5-7b' (GPU variant 'qwen2.5-7b-instruct-cuda-gpu:4') into memory.
+25/660 tickets
+50/660 tickets
+75/660 tickets
+100/660 tickets
+125/660 tickets
+150/660 tickets
+175/660 tickets
+200/660 tickets
+225/660 tickets
+250/660 tickets
+275/660 tickets
+300/660 tickets
+325/660 tickets
+350/660 tickets
+375/660 tickets
+400/660 tickets
+425/660 tickets
+450/660 tickets
+475/660 tickets
+500/660 tickets
+525/660 tickets
+550/660 tickets
+575/660 tickets
+600/660 tickets
+625/660 tickets
+650/660 tickets
+                                        modelo  f1_macro  recall_paneles_totems  accuracy  latencia_promedio_ms  pct_respuestas_mal_formadas  tickets
+                           regresion_logistica    0.8735                 0.9231    0.8697                  2.57                          0.0      660
+llm_zero_shot (qwen2.5-7b-instruct-cuda-gpu:4)    0.6858                 0.4423    0.7000                308.01                          0.0      660

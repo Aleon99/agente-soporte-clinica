@@ -1,0 +1,40 @@
+﻿dimension,valor,tickets,porcentaje
+tipo_problema,aplicativos,895,27.13
+tipo_problema,impresion,646,19.58
+tipo_problema,bloqueo_usuario,624,18.91
+tipo_problema,encendido,461,13.97
+tipo_problema,otros,414,12.55
+tipo_problema,paneles_totems,259,7.85
+area,counter,992,30.07
+area,consultorio,959,29.07
+area,administrativo,828,25.1
+area,triaje,520,15.76
+sede,san_isidro,1032,31.28
+sede,miraflores,989,29.98
+sede,surco,458,13.88
+sede,san_miguel,419,12.7
+sede,la_molina,401,12.16
+tipo_problema x area,aplicativos | administrativo,240,7.27
+tipo_problema x area,aplicativos | consultorio,270,8.18
+tipo_problema x area,aplicativos | counter,250,7.58
+tipo_problema x area,aplicativos | triaje,135,4.09
+tipo_problema x area,bloqueo_usuario | administrativo,170,5.15
+tipo_problema x area,bloqueo_usuario | consultorio,186,5.64
+tipo_problema x area,bloqueo_usuario | counter,172,5.21
+tipo_problema x area,bloqueo_usuario | triaje,96,2.91
+tipo_problema x area,encendido | administrativo,123,3.73
+tipo_problema x area,encendido | consultorio,135,4.09
+tipo_problema x area,encendido | counter,132,4.0
+tipo_problema x area,encendido | triaje,71,2.15
+tipo_problema x area,impresion | administrativo,176,5.33
+tipo_problema x area,impresion | consultorio,193,5.85
+tipo_problema x area,impresion | counter,182,5.52
+tipo_problema x area,impresion | triaje,95,2.88
+tipo_problema x area,otros | administrativo,114,3.46
+tipo_problema x area,otros | consultorio,126,3.82
+tipo_problema x area,otros | counter,116,3.52
+tipo_problema x area,otros | triaje,58,1.76
+tipo_problema x area,paneles_totems | administrativo,5,0.15
+tipo_problema x area,paneles_totems | consultorio,49,1.49
+tipo_problema x area,paneles_totems | counter,140,4.24
+tipo_problema x area,paneles_totems | triaje,65,1.97

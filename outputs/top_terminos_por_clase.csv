@@ -1,0 +1,61 @@
+﻿clase,rango,rasgo,tipo_rasgo,coeficiente
+aplicativos,1,sistema de,palabras,1.9711
+aplicativos,2,citas no,palabras,1.5394
+aplicativos,3,sistema,palabras,1.3269
+aplicativos,4,desde mi,palabras,1.2254
+aplicativos,5,teams,palabras,1.2152
+aplicativos,6,el sistema,palabras,1.0784
+aplicativos,7,teams no,palabras,1.0382
+aplicativos,8,las,palabras,0.9866
+aplicativos,9,farmacia,palabras,0.9666
+aplicativos,10,caja se,palabras,0.9297
+bloqueo_usuario,1,cuenta,palabras,1.616
+bloqueo_usuario,2,contraseña,palabras,1.4622
+bloqueo_usuario,3,iniciar,palabras,1.2589
+bloqueo_usuario,4,x,palabras,1.1662
+bloqueo_usuario,5,bloqueado,palabras,1.1465
+bloqueo_usuario,6,pass,palabras,1.1114
+bloqueo_usuario,7,bloq,caracteres,1.072
+bloqueo_usuario,8,loq,caracteres,1.072
+bloqueo_usuario,9,blo,caracteres,1.07
+bloqueo_usuario,10,mi,palabras,1.0622
+encendido,1,pc,palabras,2.3998
+encendido,2,pc del,palabras,1.8915
+encendido,3,<num> se,palabras,1.7546
+encendido,4,se,palabras,1.569
+encendido,5,y,palabras,1.5423
+encendido,6,del anexo,palabras,1.4527
+encendido,7,la pc,palabras,1.4281
+encendido,8,del,palabras,1.3187
+encendido,9, pc ,caracteres,1.2517
+encendido,10,pc ,caracteres,1.2517
+impresion,1,impresora de,palabras,1.8649
+impresion,2,impresora,palabras,1.5802
+impresion,3,imp,caracteres,1.3892
+impresion,4, imp,caracteres,1.3806
+impresion,5,salen,palabras,1.3803
+impresion,6, im,caracteres,1.3422
+impresion,7,controlador,palabras,1.2328
+impresion,8,impr,caracteres,1.1988
+impresion,9, impr,caracteres,1.1988
+impresion,10,mpr,caracteres,1.1224
+otros,1,el,palabras,2.241
+otros,2,escanea ayuda,palabras,1.4686
+otros,3,no hay,palabras,1.3253
+otros,4,la impresora,palabras,1.2719
+otros,5, el ,caracteres,1.1921
+otros,6,no imprime,palabras,1.17
+otros,7,imprime bien,palabras,1.1663
+otros,8, el,caracteres,1.1622
+otros,9,lector,palabras,1.1508
+otros,10,impresora no,palabras,1.1189
+paneles_totems,1,totem,palabras,3.1417
+paneles_totems,2,turnos,palabras,1.7525
+paneles_totems,3,el totem,palabras,1.7303
+paneles_totems,4,televisor,palabras,1.6534
+paneles_totems,5,tot,caracteres,1.653
+paneles_totems,6, tot,caracteres,1.653
+paneles_totems,7, tote,caracteres,1.536
+paneles_totems,8,tote,caracteres,1.536
+paneles_totems,9,de turnos,palabras,1.5217
+paneles_totems,10,el televisor,palabras,1.5203

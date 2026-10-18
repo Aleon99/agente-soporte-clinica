@@ -1,0 +1,13 @@
+Clasifica el ticket en exactamente una de estas clases:
+- impresion: impresoras, impresión o escaneo.
+- encendido: equipos que no encienden, se apagan o no arrancan.
+- bloqueo_usuario: usuarios bloqueados, contraseñas o acceso a la cuenta.
+- aplicativos: fallas de programas o sistemas informáticos.
+- paneles_totems: paneles de llamado de turnos, televisores de sala de espera o tótems de autoatención.
+- otros: cualquier otro problema de TI (red, telefonía, periféricos, solicitudes).
+
+Ticket: "{descripcion}"
+Área: {area}
+Sede: {sede}
+
+Responde SOLO con JSON: {{"tipo": "<clase>"}}

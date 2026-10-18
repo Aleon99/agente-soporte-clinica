@@ -1,0 +1,6 @@
+﻿descripcion_original,descripcion_limpia
+"Buenas tardes, el anexo 3 está teniendo problemas para conectarse a internet. La IP es 192.168.1.10.",buenas tardes el anexo <num> esta teniendo problemas para conectarse a internet la ip es <ip>
+Anexo 123456 bloqueado. Paciente con fiebre. Urgente! @soporte,anexo <num> bloqueado paciente con fiebre urgente soporte
+Paciente q llamar a las 10:30 fue atendido a las 11:00. Sistema falló?,paciente q llamar a las <num> <num> fue atendido a las <num> <num> sistema fallo
+La impresora térmica de boletas no imprime boletas desde las 9:30 AM. Hay un atasco de papel en la salida. Anexo 123.,la impresora termica de boletas no imprime boletas desde las <num> <num> am hay un atasco de papel en la salida anexo <num>
+No puedo iniciar sesión. La contraseña venció.,no puedo iniciar sesion la contraseña vencio

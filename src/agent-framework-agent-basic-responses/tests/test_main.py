@@ -20,8 +20,10 @@ class LocalConfigurationTests(unittest.TestCase):
 
             client.assert_called_once_with(model="phi-4-mini")
             self.assertIs(agent.call_args.kwargs["client"], client.return_value)
-            self.assertEqual(agent.call_args.kwargs["default_options"], {"store": False})
-            self.assertEqual(agent.call_args.kwargs["tools"], [mcp.return_value])
+            self.assertEqual(agent.call_args.kwargs["default_options"], {"store": False, "temperature": 0})
+            self.assertEqual(
+                agent.call_args.kwargs["tools"], [mcp.return_value, *main.HERRAMIENTAS]
+            )
             mcp.assert_called_once_with(
                 name="Microsoft Learn",
                 url="https://learn.microsoft.com/api/mcp",

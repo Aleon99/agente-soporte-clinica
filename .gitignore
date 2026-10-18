@@ -11,3 +11,21 @@ __pycache__/
 # Archivos locales que no forman parte del proyecto
 .vscode.zip
 .foundry/
+
+# Configuración local del modelo (copiar desde .env.example)
+.env
+
+# Base de datos local del agente (se regenera)
+data/tickets.db
+
+# Registros locales del servidor del agente
+data/generacion/log_agente.txt
+
+# Respaldos de la base de la demo
+data/respaldos/
+
+# Archivos de uso interno del equipo (no forman parte de la entrega)
+CLAUDE.md
+AGENTS.md
+DEMO.md
+entrega_informe.zip

@@ -1,0 +1,13 @@
+﻿escenario,lotes,prioridad_real,cola,tickets,posicion_promedio,posicion_maxima
+sede grande (60 tickets),11,critica,fifo,52,28.02,60
+sede grande (60 tickets),11,critica,priorizada,52,4.67,39
+sede grande (60 tickets),11,critica,ideal,52,3.19,8
+sede grande (60 tickets),11,alta,fifo,185,31.9,60
+sede grande (60 tickets),11,alta,priorizada,185,13.74,24
+sede grande (60 tickets),11,alta,ideal,185,13.66,25
+sede pequeña (25 tickets),26,critica,fifo,52,14.08,25
+sede pequeña (25 tickets),26,critica,priorizada,52,2.52,14
+sede pequeña (25 tickets),26,critica,ideal,52,1.88,4
+sede pequeña (25 tickets),26,alta,fifo,180,12.81,25
+sede pequeña (25 tickets),26,alta,priorizada,180,6.16,15
+sede pequeña (25 tickets),26,alta,ideal,180,6.17,15

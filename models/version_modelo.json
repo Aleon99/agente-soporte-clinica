@@ -1,0 +1,13 @@
+{
+  "version": "rl-20261016-c8c48071",
+  "entrenado": "2026-10-16T23:40:04",
+  "scikit_learn": "1.9.1",
+  "dataset_sha1_8": "c8c48071",
+  "filas_entrenamiento": 2639,
+  "hiperparametros": {
+    "clasificador__C": 2,
+    "preprocesador__caracteres__min_df": 1,
+    "preprocesador__palabras__min_df": 2
+  },
+  "umbral": 0.6
+}

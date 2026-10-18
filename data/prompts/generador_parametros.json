@@ -1,0 +1,8 @@
+{
+  "modelo": "qwen2.5-7b-instruct-cuda-gpu:4",
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "max_tokens": 1400,
+  "tam_lote": 15,
+  "seed": "42 * 100000 + numero_de_llamada"
+}

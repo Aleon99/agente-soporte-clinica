@@ -1,0 +1,14 @@
+Regresión Logística (modelo final) – holdout estratificado del 20 %
+
+                 precision    recall  f1-score   support
+
+      impresion     0.9213    0.9070    0.9141       129
+      encendido     0.8925    0.9022    0.8973        92
+bloqueo_usuario     0.8960    0.8960    0.8960       125
+    aplicativos     0.8727    0.8045    0.8372       179
+ paneles_totems     0.9231    0.9231    0.9231        52
+          otros     0.7143    0.8434    0.7735        83
+
+       accuracy                         0.8697       660
+      macro avg     0.8700    0.8793    0.8735       660
+   weighted avg     0.8734    0.8697    0.8705       660

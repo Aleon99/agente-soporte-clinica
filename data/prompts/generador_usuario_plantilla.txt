@@ -1,0 +1,13 @@
+Genera {n} descripciones DISTINTAS de tickets de soporte técnico.
+- Tipo de problema (no lo nombres literalmente): {tipo}
+- Situaciones posibles (varía entre ellas y agrega otras parecidas): {subtemas}
+- Quién escribe: {contexto}
+- Estilo: {estilo}
+Reglas:
+- Cada descripción entre {min_pal} y {max_pal} palabras.
+- Cada descripción trata una situación distinta; no repitas frases entre ellas.
+- Varía el inicio de las frases; no empieces todas igual.
+- No menciones siempre el área ni la sede.
+- Algunas pueden incluir un código de equipo, un número de anexo, una IP o un correo inventado.
+- No incluyas nombres de pacientes.
+Responde SOLO con JSON: {{"descripciones": ["...", "..."]}}

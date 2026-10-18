@@ -1,0 +1,16 @@
+﻿id_ticket,descripcion,area,sede,clase_real,clase_predicha,probabilidad,frecuencia_par,estilo,ambiguo,etiqueta_ruidosa
+802,Impr 200 no imprime. Ya probé todo lo q se me ocurrió. ¿Alguna idea?,counter,surco,aplicativos,otros,0.3133,17,abreviaturas,0,0
+2191,"Impr. Técnica no imprime nada. Cambié el tóner xfa, sigue sin funcionar.",administrativo,san_isidro,aplicativos,otros,0.4872,17,abreviaturas,0,0
+2122,La base de datos de pacientes se cae constantemente. Ayer perdíamos a 3 pacientes nuevos por eso. Necesito ayuda urgente.,administrativo,la_molina,aplicativos,otros,0.3115,17,narrativo,0,0
+2555,Los usuarios del sistema de signos vitales están bloqueados desde las 9 AM. Intentamos cambiar la contraseña pero no funciona. Afecta a todo el personal.,triaje,miraflores,aplicativos,bloqueo_usuario,0.977,9,narrativo,0,1
+2670,No puedo entrar al sistema. Q le hago al anexo 201?,consultorio,san_miguel,aplicativos,bloqueo_usuario,0.4247,9,abreviaturas,0,0
+1020,Historia clínica dice usuario incorrecto.,consultorio,surco,aplicativos,bloqueo_usuario,0.9,9,corto_ambiguo,0,1
+157,No puedo abrir el software de signos vitales. ¿Es el antivirus?,triaje,miraflores,bloqueo_usuario,aplicativos,0.3955,8,apurado,0,0
+2137,No puedo acceder a la base de datos desde mi computadora. La IP es 192.168.1.10. ¿Alguna idea?,counter,surco,bloqueo_usuario,aplicativos,0.5769,8,formal,0,0
+999,El sistema de citas se bloqueó esta mañana. Los pacientes están molestando y no puedo abrirlo. ¿Alguien sabe cómo solucionarlo?,counter,la_molina,bloqueo_usuario,aplicativos,0.4383,8,narrativo,0,0
+2844,"Dr, la impr no está imprimiendo bien los recetas. Q puedo hacer? xfa",counter,san_miguel,otros,aplicativos,0.3671,6,abreviaturas,0,0
+492,No escaea en la sla 4.,consultorio,miraflores,impresion,otros,0.6461,6,corto_ambiguo,0,0
+461,buenos dias falla el equipo x favor,triaje,san_isidro,impresion,otros,0.4335,6,generico_ambiguo,1,0
+1445,"El moouse no anda bien, q pasa? El sistema xfa me ayude",triaje,la_molina,otros,aplicativos,0.2893,6,abreviaturas,0,0
+1066,Sale cajón pero no imprime.,consultorio,san_miguel,impresion,otros,0.5104,6,corto_ambiguo,0,0
+1760,ayuda otra vez falla desde hoy,administrativo,san_isidro,otros,aplicativos,0.4896,6,generico_ambiguo,1,0

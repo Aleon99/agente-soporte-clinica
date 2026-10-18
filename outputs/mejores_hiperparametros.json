@@ -1,0 +1,32 @@
+{
+  "modelo": "regresion_logistica",
+  "metrica_refit": "f1_macro",
+  "mejores_hiperparametros": {
+    "clasificador__C": 2,
+    "preprocesador__caracteres__min_df": 1,
+    "preprocesador__palabras__min_df": 2
+  },
+  "f1_macro_cv_media": 0.8737,
+  "f1_macro_cv_desv": 0.0043,
+  "recall_paneles_totems_cv_media": 0.9175,
+  "rejilla": {
+    "clasificador__C": [
+      0.5,
+      1,
+      2,
+      5,
+      10,
+      20
+    ],
+    "preprocesador__palabras__min_df": [
+      1,
+      2
+    ],
+    "preprocesador__caracteres__min_df": [
+      1,
+      2
+    ]
+  },
+  "combinaciones_evaluadas": 24,
+  "duracion_busqueda_s": 19.6
+}
