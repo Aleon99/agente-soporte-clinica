@@ -10,8 +10,6 @@ La cola se ordena por nivel (1 -> 4) y, dentro de cada nivel, por fecha (FIFO).
 Uso:  python -m ml.priorizacion   (genera outputs/simulacion_cola.csv y .png)
 """
 
-import json
-
 import pandas as pd
 
 from ml.config import AREAS, DIR_OUTPUTS

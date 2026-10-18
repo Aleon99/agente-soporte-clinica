@@ -208,13 +208,25 @@ function ia { uv run --frozen --project src/agent-framework-agent-basic-response
 | 4. Agente de triaje | F5 en VS Code (ver abajo) | Sí | `data/tickets.db` |
 | 4. Conversaciones | `ia ml.conversaciones_demo` (con el agente corriendo) | Sí | `outputs/agente/conversacion_XX.md` |
 | 4. Preparar la demo | `ia ml.preparar_demo` | No | `data/tickets.db` con 9 tickets precargados; respaldo en `data/respaldos/` |
-| 5. Zero-shot (Agente 3) | `ia ml.comparacion_llm` | Sí (~10–15 min) | `outputs/comparacion_llm.csv` |
+| 5. Zero-shot (Agente 3) | `ia ml.comparacion_llm` | Solo la primera vez (~4 min en GPU); después reutiliza `data/generacion/zero_shot.jsonl` | `outputs/comparacion_llm.csv` |
 
 El generador tiene dos fases: `--fase generar` (llama a Qwen y guarda cada lote
 en `data/generacion/lotes.jsonl`; si se corta, el mismo comando **reanuda**) y
 `--fase ensamblar` (determinista: deduplica, inyecta ruido y asigna sede y
 fecha). Las fases 2, 3 y 5 se reproducen exactamente con el dataset incluido,
-sin volver a llamar al LLM.
+sin volver a llamar al LLM: la fase 5 reutiliza las respuestas de Qwen
+guardadas.
+
+**Para reproducir los resultados sin Foundry Local**, ejecuta en este orden:
+
+```powershell
+ia ml.limpieza; ia ml.entrenamiento; ia ml.evaluacion; ia ml.priorizacion; ia ml.comparacion_llm
+```
+
+`ml.entrenamiento` reinicia `outputs/metricas_finales.json`, y cada fase
+siguiente agrega su sección; por eso hay que correr las cinco. Las métricas
+salen idénticas; solo cambian los tiempos medidos (entrenamiento y latencia de
+la RL) y la fecha de la versión del modelo.
 
 ### Agente de triaje en Agent Inspector
 
